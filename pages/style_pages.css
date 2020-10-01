@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	src: url(../fonts/Montserrat-Light.ttf);
+	font-family: mine;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	background-color:#FEC715;
+	border-radius: 10px;
+	margin:20px; 
+	padding: 10px;
+}
+
+a:hover{
+	color: red;
+}
+/*about page start*/
+.about{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.about .full{
+	background-image:linear-gradient(#FFC815, #FEC715);
+	height: 555px;
+	width: 470px;
+	margin: auto;
+}
+
+.about img{
+	height: 325px;
+	width: 280px;
+}
+
+.about .text{
+	width: 95%;
+	margin: auto;
+	padding: 10px;
+}
+.about .text p{
+	font-size: 20px;
+	font-family: mine;
+}
+/*about page end*/
+
+/*education page start*/
+
+.edu{
+	width: 70%;
+	margin: 100px auto;
+	box-shadow: 0px 0px 10px 5px lightgrey;
+	padding: 30px;
+}
+
+.edu span{
+	background-color: #FEC715;
+	height: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 15px;
+	padding: 8px;
+	margin: 10px;
+}
+
+ .icon{
+	color: #FEC715;
+	font-size: 25px;
+}
+
+.edu hr{
+	background-color: lightgrey;
+	height: 1px;
+	border:none;
+	margin:10px;
+}
+
+.edu p{
+	font-size: 25px;
+	margin: 0px 10px;
+	font-family: mine;
+}
+
+.edu h3{
+	margin: 10px;
+	color: #757575;
+	font-family: mine;
+	font-size: 25px;
+}
+
+/*education page start*/
+
+/*work start*/
+.work{
+	width: 70%;
+	margin: 100px auto;
+	box-shadow: 0px 0px 10px 5px lightgrey;
+	padding: 30px;
+}
+
+.work span{
+	background-color: #FEC715;
+	height: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 15px;
+	padding: 8px;
+	margin: 10px;
+}
+
+ .icon{
+	color: #FEC715;
+	font-size: 25px;
+}
+
+.work hr{
+	background-color: lightgrey;
+	height: 1px;
+	border:none;
+	margin:10px;
+}
+
+.work p{
+	font-size: 25px;
+	margin: 0px 10px;
+	font-family: mine;
+}
+
+.work h3{
+	margin: 10px;
+	color: crimson;
+	font-family: mine;
+	font-size: 25px;
+}
+
+
+
+/*work end*/
+
+/*contact start*/
+
+.contact{
+	
+	height: 400px;
+	width: 70%;
+	margin: 100px auto;
+	box-shadow: 0px 0px 10px 5px lightgrey;
+	padding: 30px;
+
+}
+
+.contact p{
+	display: inline-block;
+	margin: 10px;
+	color: #757575;
+	font-family: mine;
+}
+
+nav a{
+	background-color: transparent;
+	color: #FEC715;
+	font-size: 35px;
+}
+
+/*contact end*/

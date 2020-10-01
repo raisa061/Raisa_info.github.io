@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	src: url(fonts/Montserrat-Light.ttf);
+	font-family: mine;
+}
+
+@font-face{
+	src: url(fonts/InconsolataExtraExpanded-Medium.ttf);
+	font-family: incon;
+}
+
+.main{
+	background-image: linear-gradient(#ffad33, #ffebcc);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+
+/*menu bar*/
+.nav{
+	margin:auto;
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.nav ul li{
+	display: inline-block;
+}
+
+.nav ul li a{
+	color: black;
+	padding: 30px 30px;
+	display: block;
+	font-size: 30px;
+	font-family: mine;
+
+}
+
+.nav ul li:hover a{
+	color: white;
+	text-decoration: overline;
+}
+
+/*menu bar end*/
+
+/*introduction*/
+.intro{
+		width: 80%;
+	margin:auto;
+	margin-top: 200px;
+	border-left: 5px solid #ff6600;
+}
+
+.intro h1{
+	font-size: 50px;
+	font-family: incon;
+	padding: 20px;
+}
+
+.intro p{
+	font-size: 30px;
+	font-family: mine;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.point{
+	font-size: 60px;
+	
+}
+/*introduction end*/
